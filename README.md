@@ -23,7 +23,7 @@ Basic understanding of HTML, CSS, and JavaScript.
 ***Clone the Repository:***
 
 
-git clone https://github.com/your-username/shopping-cart.git
+git clone https://github.com/idrissbado/shopping-cart.git
 cd shopping-cart
 ***Open the Project***:
 
