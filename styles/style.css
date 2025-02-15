@@ -1,0 +1,158 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #27ae60 !important;
+}
+
+.nav-link {
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #27ae60;
+}
+
+/* Icons */
+i {
+  font-size: 30px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+i:hover {
+  transform: scale(1.1);
+}
+
+/* Shopping Card Container */
+.shopping-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #f0f0f0, #ffffff);
+  border-radius: 12px;
+  padding: 3%;
+  margin: 50px 0;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.total-price span {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.total {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+/* Product List */
+.list-products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+  width: 80%;
+}
+
+/* Product Card */
+.card {
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  border-radius: 10px;
+}
+
+/* Card Content */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #666;
+  font-size: 1rem;
+}
+
+.unit-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.quantity {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* Buttons */
+.card-body div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Plus and Minus Buttons */
+.fa-plus-circle, .fa-minus-circle {
+  color: #27ae60;
+}
+
+.fa-plus-circle:hover {
+  color: #2ecc71;
+}
+
+.fa-minus-circle:hover {
+  color: #e74c3c;
+}
+
+/* Delete Button */
+.fa-trash-alt {
+  color: #de6b5c;
+  transition: color 0.3s ease;
+}
+
+.fa-trash-alt:hover {
+  color: #c0392b;
+}
+
+/* Heart Button (Like) */
+.fa-heart {
+  color: #aaa;
+  transition: color 0.3s ease;
+}
+
+.fa-heart.liked {
+  color: #e74c3c !important;
+}
